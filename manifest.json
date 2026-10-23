@@ -1,11 +1,11 @@
 {
-    "name": "Universal Logger",
-    "short_name": "universal_logger_v1",
+    "name": "Wardrive GSM",
+    "short_name": "wardrive_gsm",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#FF005F",
-    "description": "Universal Logger: visor de mediciones GSM/GPS (ESP32-C3 + SIM800L + Supabase)",
+    "description": "GSM_Logger: visor de se\u00f1al GSM + GPS (ESP32-C3 + SIM800L + Supabase)",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

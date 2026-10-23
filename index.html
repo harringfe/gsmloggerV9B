@@ -2,10 +2,10 @@
 <html>
 
 <head>
-  <base href="/universalloggerV9B/">
+  <base href="/gsmloggerV9B/">
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="Universal Logger: visor de mediciones GSM/GPS (ESP32-C3 + SIM800L + Supabase)">
+  <meta name="description" content="GSM_Logger: visor de señal GSM + GPS (ESP32-C3 + SIM800L + Supabase)">
 
   <!-- Unconditional, and not part of the splash block below: this tag used to
        arrive only because flutter_native_splash injected it. Without it a
@@ -16,13 +16,13 @@
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Universal Logger">
+  <meta name="apple-mobile-web-app-title" content="Wardrive GSM">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png" />
 
-  <title>Universal Logger</title>
+  <title>Wardrive GSM</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
@@ -49,8 +49,8 @@
       pyodide: true,
       noCdn: false,
       webSocketEndpoint: "/ws",
-      entrypointBaseUrl: "/universalloggerV9B/",
-      assetBase: "/universalloggerV9B/",
+      entrypointBaseUrl: "/gsmloggerV9B/",
+      assetBase: "/gsmloggerV9B/",
       routeUrlStrategy: "hash",
       // Only pinned when bundling. Left null, Flutter resolves CanvasKit from
       // gstatic and the Noto fallback fonts from Google Fonts, and the build
@@ -63,11 +63,11 @@
       // drops into web/pyodide/ when --no-cdn is set; otherwise pull
       // from jsdelivr so the build artifact can stay slim.
       pyodideUrl: "https://cdn.jsdelivr.net/pyodide/v314.0.7/full/pyodide.mjs",
-      pythonModuleName: "UniversalLoggerV9B",
+      pythonModuleName: "GSMLoggerV9B",
       webRenderer: "canvaskit",
       // "assets/fonts/" is the bundled Noto Emoji; null pulls it from Google Fonts.
       fontFallbackBaseUrl: null,
-      appPackageUrl: "assets/app/app.zip?v=2f4fbfb688"
+      appPackageUrl: "assets/app/app.zip?v=110d4d94fc"
     }
 
     flet.flutterAppLoaded = new Promise((resolve) => {
